@@ -100,7 +100,6 @@ public class JobData {
         loadData();
 
         ArrayList<HashMap<String, String>> jobs = new ArrayList<>();
-
         if (!value.equals("")) {
             for (HashMap<String, String> job : allJobs) {
                 for (Map.Entry<String, String> detail : job.entrySet())
